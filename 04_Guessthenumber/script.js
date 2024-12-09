@@ -77,7 +77,7 @@ function endGame () {
 function newGame () {
     const newGameButton = document.querySelector('#newGame')
     newGameButton.addEventListener('click', function(e){
-        let randomNumber = parseInt(Math.random() * 100 + 1);
+        randomNumber = parseInt(Math.random() * 100 + 1);
         prevGuess = []
         numGuess = 1
         guessSlot.innerHTML = ''
